@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shrub.png" translatesAutoresizingMaskIntoConstraints="NO" id="GdQ-B6-RGD">
+                                <rect key="frame" x="-4" y="465" width="190" height="202"/>
+                                <animations/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="GdQ-B6-RGD" secondAttribute="height" multiplier="95:101" id="K6d-7D-eH1"/>
+                                    <constraint firstAttribute="width" constant="190" id="x1E-xj-bmQ"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="d9E-cI-EvS" appends="YES" id="1ej-2j-WeP"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rake.png" translatesAutoresizingMaskIntoConstraints="NO" id="t1R-oL-ckf">
+                                <rect key="frame" x="2" y="0.0" width="127" height="136"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="t1R-oL-ckf" secondAttribute="height" multiplier="95:101" id="FTj-3O-Wvo"/>
+                                    <constraint firstAttribute="height" constant="136" id="sE7-9a-o0D"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="QZ4-To-Au9" appends="YES" id="VOQ-Mq-jS9"/>
+                                    <outletCollection property="gestureRecognizers" destination="NDY-0F-5fo" appends="YES" id="gVP-9e-jbd"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swordinrock.png" translatesAutoresizingMaskIntoConstraints="NO" id="fiI-Vf-zyA">
+                                <rect key="frame" x="224" y="503" width="151" height="164"/>
+                                <animations/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="YII-FK-kLr" appends="YES" id="gFl-GV-vxu"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rock1.png" translatesAutoresizingMaskIntoConstraints="NO" id="hEi-33-Hpk">
+                                <rect key="frame" x="260" y="0.0" width="119" height="130"/>
+                                <animations/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="iiW-eF-AcH"/>
+                                    <constraint firstAttribute="width" secondItem="hEi-33-Hpk" secondAttribute="height" multiplier="93:101" id="xsE-ZY-XYP"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="8LN-WG-epx" appends="YES" id="WFa-e1-jsZ"/>
+                                </connections>
+                            </imageView>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qh8-Mj-NBg">
+                                <rect key="frame" x="158" y="307" width="58" height="53"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.63512729219999997" green="0.9340121925" blue="0.94752209600000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="58" id="mzN-GA-6y8"/>
+                                    <constraint firstAttribute="height" constant="53" id="oFf-k9-T9h"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.63512729219999997" green="0.9340121925" blue="0.94752209600000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Wlh-AX-7Mk" appends="YES" id="doE-Qq-WUg"/>
+                                </connections>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="t1R-oL-ckf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="2" id="3WN-sS-GwL" userLabel="Pin Left Constrain"/>
+                            <constraint firstItem="hEi-33-Hpk" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="20" id="5id-Ag-Ac9" userLabel="Rock1 Pan ConstrainX"/>
+                            <constraint firstItem="t1R-oL-ckf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="Gpl-3a-mys"/>
+                            <constraint firstItem="qh8-Mj-NBg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MxN-42-aRn"/>
+                            <constraint firstItem="GdQ-B6-RGD" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="XD8-RK-sgC"/>
+                            <constraint firstItem="GdQ-B6-RGD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="XEH-Ky-d4q"/>
+                            <constraint firstItem="qh8-Mj-NBg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="iSg-tm-aO7"/>
+                            <constraint firstItem="hEi-33-Hpk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="uB9-3G-wJA" userLabel="rock1 Pan ConstrainY"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="blueDot" destination="qh8-Mj-NBg" id="Vyf-W1-eub"/>
+                        <outlet property="pinLeftConstrain" destination="3WN-sS-GwL" id="hD3-eP-ktW"/>
+                        <outlet property="pinTopConstrain" destination="Gpl-3a-mys" id="oOs-rn-XRc"/>
+                        <outlet property="rakeImage" destination="t1R-oL-ckf" id="8Tt-qO-cvJ"/>
+                        <outlet property="rock1Image" destination="hEi-33-Hpk" id="DPh-SS-BZM"/>
+                        <outlet property="rock1PanConstrainX" destination="5id-Ag-Ac9" id="8cz-zz-oED"/>
+                        <outlet property="rock1PanConstrainY" destination="uB9-3G-wJA" id="id3-2D-CXb"/>
+                        <outlet property="shrubImage" destination="GdQ-B6-RGD" id="pef-Gx-Cy5"/>
+                        <outlet property="shrubPanConstrainX" destination="XEH-Ky-d4q" id="Teq-PJ-o3d"/>
+                        <outlet property="shrubPanConstrainY" destination="XD8-RK-sgC" id="zVx-a2-ZeZ"/>
+                        <outlet property="swordinrockImage" destination="fiI-Vf-zyA" id="GRJ-o2-jXU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="4kp-VB-6KF" userLabel="LocationTap Gesture Recognizer">
+                    <connections>
+                        <action selector="location:" destination="BYZ-38-t0r" id="oLh-hf-Pe1"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="QZ4-To-Au9">
+                    <connections>
+                        <action selector="rakePan:" destination="BYZ-38-t0r" id="lwQ-ui-F9d"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="8LN-WG-epx">
+                    <connections>
+                        <action selector="rock1Pan:" destination="BYZ-38-t0r" id="HKl-7e-zxy"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="d9E-cI-EvS">
+                    <connections>
+                        <action selector="shrubPan:" destination="BYZ-38-t0r" id="KUY-qN-1Po"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="YII-FK-kLr">
+                    <connections>
+                        <action selector="swordinrockPan:" destination="BYZ-38-t0r" id="EqI-uS-i5u"/>
+                    </connections>
+                </panGestureRecognizer>
+                <tapGestureRecognizer id="NDY-0F-5fo" userLabel="rake Gesture Recognizer">
+                    <connections>
+                        <action selector="rakeTap:" destination="BYZ-38-t0r" id="Paf-lq-8UR"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Wlh-AX-7Mk" userLabel="BlueDotTap Gesture Recognizer">
+                    <connections>
+                        <action selector="blueDotTap:" destination="BYZ-38-t0r" id="b8M-tR-ZnY"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="324.5" y="388.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="rake.png" width="402" height="597"/>
+        <image name="rock1.png" width="297" height="234"/>
+        <image name="shrub.png" width="600" height="396"/>
+        <image name="swordinrock.png" width="498" height="600"/>
+    </resources>
+</document>
