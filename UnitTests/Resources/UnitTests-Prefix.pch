@@ -1,9 +1,0 @@
-#import "zenGarden-Prefix.pch"
-
-#ifdef __OBJC__
-
-    #define EXP_SHORTHAND
-    #import <Specta/Specta.h>
-    #import <Expecta/Expecta.h>
-
-#endif

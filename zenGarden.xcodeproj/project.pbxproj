@@ -7,584 +7,531 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		38F99569C9BA4C4786763AA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC98207D76C457E9246A8FB /* main.m */; };
-		40FA3165C5284AD7BAB6CD65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD04907EBEA54295AECEC8A9 /* Images.xcassets */; };
-		51850E5214B3489FA4A199E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2967C44308A445FB9FBB188 /* Foundation.framework */; };
-		5BBECA371BD7E1F600FFFAE2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBECA361BD7E1F600FFFAE2 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
-		8F6EA8AB3C2269B0A60B5D16 /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA9F1FC2B2A414731A305C8 /* libPods-unit_tests.a */; };
-		D870D8071A02A13800D571DA /* rock1.png in Resources */ = {isa = PBXBuildFile; fileRef = D870D8061A02A13800D571DA /* rock1.png */; };
-		D870D80B1A02A35A00D571DA /* shrub.png in Resources */ = {isa = PBXBuildFile; fileRef = D870D8081A02A35900D571DA /* shrub.png */; };
-		D870D80C1A02A35A00D571DA /* swordinrock.png in Resources */ = {isa = PBXBuildFile; fileRef = D870D8091A02A35A00D571DA /* swordinrock.png */; };
-		D870D80D1A02A35A00D571DA /* rake.png in Resources */ = {isa = PBXBuildFile; fileRef = D870D80A1A02A35A00D571DA /* rake.png */; };
-		F3C1E78B367F490F85E73E3D /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1E2B91E2814818A6BFEB9A /* FISAppDelegate.m */; };
+		629B74631BE10AA5008F05F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 629B74621BE10AA5008F05F6 /* main.m */; };
+		629B74661BE10AA5008F05F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 629B74651BE10AA5008F05F6 /* AppDelegate.m */; };
+		629B74691BE10AA5008F05F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629B74681BE10AA5008F05F6 /* ViewController.m */; };
+		629B746C1BE10AA5008F05F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629B746A1BE10AA5008F05F6 /* Main.storyboard */; };
+		629B746E1BE10AA5008F05F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629B746D1BE10AA5008F05F6 /* Assets.xcassets */; };
+		629B74711BE10AA5008F05F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629B746F1BE10AA5008F05F6 /* LaunchScreen.storyboard */; };
+		629B747C1BE10AA5008F05F6 /* ZenGardenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 629B747B1BE10AA5008F05F6 /* ZenGardenTests.m */; };
+		629B74871BE10AA5008F05F6 /* ZenGardenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 629B74861BE10AA5008F05F6 /* ZenGardenUITests.m */; };
+		629B74981BE10B0A008F05F6 /* rake.png in Resources */ = {isa = PBXBuildFile; fileRef = 629B74941BE10B0A008F05F6 /* rake.png */; settings = {ASSET_TAGS = (); }; };
+		629B74991BE10B0A008F05F6 /* rock1.png in Resources */ = {isa = PBXBuildFile; fileRef = 629B74951BE10B0A008F05F6 /* rock1.png */; settings = {ASSET_TAGS = (); }; };
+		629B749A1BE10B0A008F05F6 /* shrub.png in Resources */ = {isa = PBXBuildFile; fileRef = 629B74961BE10B0A008F05F6 /* shrub.png */; settings = {ASSET_TAGS = (); }; };
+		629B749B1BE10B0A008F05F6 /* swordinrock.png in Resources */ = {isa = PBXBuildFile; fileRef = 629B74971BE10B0A008F05F6 /* swordinrock.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		86F595FD1C77494BB0476747 /* PBXContainerItemProxy */ = {
+		629B74781BE10AA5008F05F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2CD2F28620F049E6AAB78306 /* Project object */;
+			containerPortal = 629B74561BE10AA5008F05F6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0C310EAB6E6148ADBE37D959;
-			remoteInfo = zenGarden;
+			remoteGlobalIDString = 629B745D1BE10AA5008F05F6;
+			remoteInfo = ZenGarden;
+		};
+		629B74831BE10AA5008F05F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 629B74561BE10AA5008F05F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 629B745D1BE10AA5008F05F6;
+			remoteInfo = ZenGarden;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2CA9F1FC2B2A414731A305C8 /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DE599179070A4B7ED9C2546 /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
-		5BBECA361BD7E1F600FFFAE2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../../Launch Screen.storyboard"; sourceTree = "<group>"; };
-		67D851389F524865BC974049 /* zenGarden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zenGarden.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EEA799D64244FD1BB24E1BD /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
-		A4278CED900D661A7912A60C /* Pods-unit_tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B2967C44308A445FB9FBB188 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B43519F1BA6D4B7090679A66 /* zenGarden-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "zenGarden-Prefix.pch"; sourceTree = "<group>"; };
-		CC1E2B91E2814818A6BFEB9A /* FISAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
-		D870D8061A02A13800D571DA /* rock1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rock1.png; sourceTree = "<group>"; };
-		D870D8081A02A35900D571DA /* shrub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shrub.png; sourceTree = "<group>"; };
-		D870D8091A02A35A00D571DA /* swordinrock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swordinrock.png; sourceTree = "<group>"; };
-		D870D80A1A02A35A00D571DA /* rake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rake.png; sourceTree = "<group>"; };
-		E75845D4FA47490BA86DCFC5 /* FISAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
-		EC64FB5DBABD49B5B4F53523 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3F1DCF5E90643CB801D9EBD /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
-		F425773BD6714CF9B4C6F420 /* zenGarden-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "zenGarden-Info.plist"; sourceTree = "<group>"; };
-		FCC98207D76C457E9246A8FB /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FD04907EBEA54295AECEC8A9 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		629B745E1BE10AA5008F05F6 /* ZenGarden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenGarden.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		629B74621BE10AA5008F05F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		629B74641BE10AA5008F05F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		629B74651BE10AA5008F05F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		629B74671BE10AA5008F05F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		629B74681BE10AA5008F05F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		629B746B1BE10AA5008F05F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		629B746D1BE10AA5008F05F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		629B74701BE10AA5008F05F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		629B74721BE10AA5008F05F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		629B74771BE10AA5008F05F6 /* ZenGardenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenGardenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		629B747B1BE10AA5008F05F6 /* ZenGardenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZenGardenTests.m; sourceTree = "<group>"; };
+		629B747D1BE10AA5008F05F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		629B74821BE10AA5008F05F6 /* ZenGardenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenGardenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		629B74861BE10AA5008F05F6 /* ZenGardenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZenGardenUITests.m; sourceTree = "<group>"; };
+		629B74881BE10AA5008F05F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		629B74941BE10B0A008F05F6 /* rake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rake.png; sourceTree = "<group>"; };
+		629B74951BE10B0A008F05F6 /* rock1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rock1.png; sourceTree = "<group>"; };
+		629B74961BE10B0A008F05F6 /* shrub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shrub.png; sourceTree = "<group>"; };
+		629B74971BE10B0A008F05F6 /* swordinrock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swordinrock.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0989333AFA624F459EC624FE /* Frameworks */ = {
+		629B745B1BE10AA5008F05F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51850E5214B3489FA4A199E5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92B5F1809BCE4582AD6C660C /* Frameworks */ = {
+		629B74741BE10AA5008F05F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F6EA8AB3C2269B0A60B5D16 /* libPods-unit_tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629B747F1BE10AA5008F05F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2AE04377926B48769C13ABB6 /* Resources */ = {
+		629B74551BE10AA5008F05F6 = {
 			isa = PBXGroup;
 			children = (
-				8EEA799D64244FD1BB24E1BD /* UnitTests-Info.plist */,
-				F3F1DCF5E90643CB801D9EBD /* UnitTests-Prefix.pch */,
+				629B74601BE10AA5008F05F6 /* ZenGarden */,
+				629B747A1BE10AA5008F05F6 /* ZenGardenTests */,
+				629B74851BE10AA5008F05F6 /* ZenGardenUITests */,
+				629B745F1BE10AA5008F05F6 /* Products */,
 			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
-		54380862D30D4434A9976D88 /* zenGarden */ = {
+		629B745F1BE10AA5008F05F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E75845D4FA47490BA86DCFC5 /* FISAppDelegate.h */,
-				CC1E2B91E2814818A6BFEB9A /* FISAppDelegate.m */,
-				FE18899F6B1F408590194E69 /* Resources */,
-			);
-			path = zenGarden;
-			sourceTree = "<group>";
-		};
-		6774A2BB08F8435288868017 /* Other-Sources */ = {
-			isa = PBXGroup;
-			children = (
-				F425773BD6714CF9B4C6F420 /* zenGarden-Info.plist */,
-				B43519F1BA6D4B7090679A66 /* zenGarden-Prefix.pch */,
-				FCC98207D76C457E9246A8FB /* main.m */,
-			);
-			path = "Other-Sources";
-			sourceTree = "<group>";
-		};
-		95A679E8E8774DE1A574D870 = {
-			isa = PBXGroup;
-			children = (
-				54380862D30D4434A9976D88 /* zenGarden */,
-				FD5B0A9AA37C4D35A68582C4 /* UnitTests */,
-				D00FF1507D8F4686B45B3945 /* Frameworks */,
-				E8B519D0830947378E0DE882 /* Products */,
-				E4CC92210DC21E5C36C7DAE6 /* Pods */,
-			);
-			indentWidth = 4;
-			sourceTree = "<group>";
-			tabWidth = 4;
-			usesTabs = 0;
-		};
-		A7E3696BED694A85B35DDA5E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				B2967C44308A445FB9FBB188 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		D00FF1507D8F4686B45B3945 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A7E3696BED694A85B35DDA5E /* iOS */,
-				2CA9F1FC2B2A414731A305C8 /* libPods-unit_tests.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E4CC92210DC21E5C36C7DAE6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4DE599179070A4B7ED9C2546 /* Pods-unit_tests.release.xcconfig */,
-				A4278CED900D661A7912A60C /* Pods-unit_tests.debug.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		E8B519D0830947378E0DE882 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				67D851389F524865BC974049 /* zenGarden.app */,
-				EC64FB5DBABD49B5B4F53523 /* UnitTests.xctest */,
+				629B745E1BE10AA5008F05F6 /* ZenGarden.app */,
+				629B74771BE10AA5008F05F6 /* ZenGardenTests.xctest */,
+				629B74821BE10AA5008F05F6 /* ZenGardenUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F851417504D94319B6896575 /* Tests */ = {
+		629B74601BE10AA5008F05F6 /* ZenGarden */ = {
 			isa = PBXGroup;
 			children = (
+				629B74641BE10AA5008F05F6 /* AppDelegate.h */,
+				629B74651BE10AA5008F05F6 /* AppDelegate.m */,
+				629B74671BE10AA5008F05F6 /* ViewController.h */,
+				629B74681BE10AA5008F05F6 /* ViewController.m */,
+				629B746A1BE10AA5008F05F6 /* Main.storyboard */,
+				629B746D1BE10AA5008F05F6 /* Assets.xcassets */,
+				629B746F1BE10AA5008F05F6 /* LaunchScreen.storyboard */,
+				629B74941BE10B0A008F05F6 /* rake.png */,
+				629B74951BE10B0A008F05F6 /* rock1.png */,
+				629B74961BE10B0A008F05F6 /* shrub.png */,
+				629B74971BE10B0A008F05F6 /* swordinrock.png */,
+				629B74721BE10AA5008F05F6 /* Info.plist */,
+				629B74611BE10AA5008F05F6 /* Supporting Files */,
 			);
-			path = Tests;
+			path = ZenGarden;
 			sourceTree = "<group>";
 		};
-		FD5B0A9AA37C4D35A68582C4 /* UnitTests */ = {
+		629B74611BE10AA5008F05F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2AE04377926B48769C13ABB6 /* Resources */,
-				F851417504D94319B6896575 /* Tests */,
+				629B74621BE10AA5008F05F6 /* main.m */,
 			);
-			path = UnitTests;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FE18899F6B1F408590194E69 /* Resources */ = {
+		629B747A1BE10AA5008F05F6 /* ZenGardenTests */ = {
 			isa = PBXGroup;
 			children = (
-				5BBECA361BD7E1F600FFFAE2 /* Launch Screen.storyboard */,
-				D870D8081A02A35900D571DA /* shrub.png */,
-				D870D8091A02A35A00D571DA /* swordinrock.png */,
-				D870D80A1A02A35A00D571DA /* rake.png */,
-				D870D8061A02A13800D571DA /* rock1.png */,
-				FD04907EBEA54295AECEC8A9 /* Images.xcassets */,
-				6774A2BB08F8435288868017 /* Other-Sources */,
+				629B747B1BE10AA5008F05F6 /* ZenGardenTests.m */,
+				629B747D1BE10AA5008F05F6 /* Info.plist */,
 			);
-			path = Resources;
+			path = ZenGardenTests;
+			sourceTree = "<group>";
+		};
+		629B74851BE10AA5008F05F6 /* ZenGardenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				629B74861BE10AA5008F05F6 /* ZenGardenUITests.m */,
+				629B74881BE10AA5008F05F6 /* Info.plist */,
+			);
+			path = ZenGardenUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0C310EAB6E6148ADBE37D959 /* zenGarden */ = {
+		629B745D1BE10AA5008F05F6 /* ZenGarden */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59591CFDE0C44AF6B025E606 /* Build configuration list for PBXNativeTarget "zenGarden" */;
+			buildConfigurationList = 629B748B1BE10AA5008F05F6 /* Build configuration list for PBXNativeTarget "ZenGarden" */;
 			buildPhases = (
-				ECA4D24FD2374BDEB15F33B3 /* Sources */,
-				0989333AFA624F459EC624FE /* Frameworks */,
-				DC91616D28C548779672855F /* Resources */,
-				FF34FB11CF804AC980919A03 /* Warn for TODO and FIXME comments */,
+				629B745A1BE10AA5008F05F6 /* Sources */,
+				629B745B1BE10AA5008F05F6 /* Frameworks */,
+				629B745C1BE10AA5008F05F6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = zenGarden;
-			productName = zenGarden;
-			productReference = 67D851389F524865BC974049 /* zenGarden.app */;
+			name = ZenGarden;
+			productName = ZenGarden;
+			productReference = 629B745E1BE10AA5008F05F6 /* ZenGarden.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1685F625C5A74AE5B3864745 /* UnitTests */ = {
+		629B74761BE10AA5008F05F6 /* ZenGardenTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52E32D4CEC404A8F8FFA6D20 /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildConfigurationList = 629B748E1BE10AA5008F05F6 /* Build configuration list for PBXNativeTarget "ZenGardenTests" */;
 			buildPhases = (
-				47EEA6C0B825929787E880C6 /* Check Pods Manifest.lock */,
-				3B05E3E2266E4989AD833098 /* Sources */,
-				92B5F1809BCE4582AD6C660C /* Frameworks */,
-				B595D58445EF4EFB9864C752 /* Resources */,
-				26F075015ABDED17AD95582B /* Copy Pods Resources */,
-				B72651F5B758325235614546 /* Embed Pods Frameworks */,
+				629B74731BE10AA5008F05F6 /* Sources */,
+				629B74741BE10AA5008F05F6 /* Frameworks */,
+				629B74751BE10AA5008F05F6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				85CDB7964C4342398267A70F /* PBXTargetDependency */,
+				629B74791BE10AA5008F05F6 /* PBXTargetDependency */,
 			);
-			name = UnitTests;
-			productName = UnitTests;
-			productReference = EC64FB5DBABD49B5B4F53523 /* UnitTests.xctest */;
+			name = ZenGardenTests;
+			productName = ZenGardenTests;
+			productReference = 629B74771BE10AA5008F05F6 /* ZenGardenTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		629B74811BE10AA5008F05F6 /* ZenGardenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629B74911BE10AA5008F05F6 /* Build configuration list for PBXNativeTarget "ZenGardenUITests" */;
+			buildPhases = (
+				629B747E1BE10AA5008F05F6 /* Sources */,
+				629B747F1BE10AA5008F05F6 /* Frameworks */,
+				629B74801BE10AA5008F05F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				629B74841BE10AA5008F05F6 /* PBXTargetDependency */,
+			);
+			name = ZenGardenUITests;
+			productName = ZenGardenUITests;
+			productReference = 629B74821BE10AA5008F05F6 /* ZenGardenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2CD2F28620F049E6AAB78306 /* Project object */ = {
+		629B74561BE10AA5008F05F6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = FIS;
-				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = "The Flatiron School";
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Guang;
+				TargetAttributes = {
+					629B745D1BE10AA5008F05F6 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					629B74761BE10AA5008F05F6 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 629B745D1BE10AA5008F05F6;
+					};
+					629B74811BE10AA5008F05F6 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 629B745D1BE10AA5008F05F6;
+					};
+				};
 			};
-			buildConfigurationList = 3406E6128508483F82CE32F7 /* Build configuration list for PBXProject "zenGarden" */;
+			buildConfigurationList = 629B74591BE10AA5008F05F6 /* Build configuration list for PBXProject "ZenGarden" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 95A679E8E8774DE1A574D870;
-			productRefGroup = E8B519D0830947378E0DE882 /* Products */;
+			mainGroup = 629B74551BE10AA5008F05F6;
+			productRefGroup = 629B745F1BE10AA5008F05F6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C310EAB6E6148ADBE37D959 /* zenGarden */,
-				1685F625C5A74AE5B3864745 /* UnitTests */,
+				629B745D1BE10AA5008F05F6 /* ZenGarden */,
+				629B74761BE10AA5008F05F6 /* ZenGardenTests */,
+				629B74811BE10AA5008F05F6 /* ZenGardenUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B595D58445EF4EFB9864C752 /* Resources */ = {
+		629B745C1BE10AA5008F05F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629B74711BE10AA5008F05F6 /* LaunchScreen.storyboard in Resources */,
+				629B746E1BE10AA5008F05F6 /* Assets.xcassets in Resources */,
+				629B749B1BE10B0A008F05F6 /* swordinrock.png in Resources */,
+				629B74981BE10B0A008F05F6 /* rake.png in Resources */,
+				629B746C1BE10AA5008F05F6 /* Main.storyboard in Resources */,
+				629B749A1BE10B0A008F05F6 /* shrub.png in Resources */,
+				629B74991BE10B0A008F05F6 /* rock1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629B74751BE10AA5008F05F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC91616D28C548779672855F /* Resources */ = {
+		629B74801BE10AA5008F05F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BBECA371BD7E1F600FFFAE2 /* Launch Screen.storyboard in Resources */,
-				D870D8071A02A13800D571DA /* rock1.png in Resources */,
-				D870D80D1A02A35A00D571DA /* rake.png in Resources */,
-				D870D80B1A02A35A00D571DA /* shrub.png in Resources */,
-				40FA3165C5284AD7BAB6CD65 /* Images.xcassets in Resources */,
-				D870D80C1A02A35A00D571DA /* swordinrock.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		26F075015ABDED17AD95582B /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		47EEA6C0B825929787E880C6 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B72651F5B758325235614546 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FF34FB11CF804AC980919A03 /* Warn for TODO and FIXME comments */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Warn for TODO and FIXME comments";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nFILE_EXTENSIONS=\"h|m|mm|c|cpp\"\nfind -E \"${SRCROOT}\" -ipath \"${SRCROOT}/pods\" -prune -o \\( -regex \".*\\.($FILE_EXTENSIONS)$\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		3B05E3E2266E4989AD833098 /* Sources */ = {
+		629B745A1BE10AA5008F05F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				629B74691BE10AA5008F05F6 /* ViewController.m in Sources */,
+				629B74661BE10AA5008F05F6 /* AppDelegate.m in Sources */,
+				629B74631BE10AA5008F05F6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECA4D24FD2374BDEB15F33B3 /* Sources */ = {
+		629B74731BE10AA5008F05F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3C1E78B367F490F85E73E3D /* FISAppDelegate.m in Sources */,
-				38F99569C9BA4C4786763AA2 /* main.m in Sources */,
+				629B747C1BE10AA5008F05F6 /* ZenGardenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629B747E1BE10AA5008F05F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629B74871BE10AA5008F05F6 /* ZenGardenUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		85CDB7964C4342398267A70F /* PBXTargetDependency */ = {
+		629B74791BE10AA5008F05F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0C310EAB6E6148ADBE37D959 /* zenGarden */;
-			targetProxy = 86F595FD1C77494BB0476747 /* PBXContainerItemProxy */;
+			target = 629B745D1BE10AA5008F05F6 /* ZenGarden */;
+			targetProxy = 629B74781BE10AA5008F05F6 /* PBXContainerItemProxy */;
+		};
+		629B74841BE10AA5008F05F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 629B745D1BE10AA5008F05F6 /* ZenGarden */;
+			targetProxy = 629B74831BE10AA5008F05F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		629B746A1BE10AA5008F05F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				629B746B1BE10AA5008F05F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		629B746F1BE10AA5008F05F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				629B74701BE10AA5008F05F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		0224A94380F74B6BAF1549DC /* Release */ = {
+		629B74891BE10AA5008F05F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "zenGarden/Resources/Other-Sources/zenGarden-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "zenGarden/Resources/Other-Sources/zenGarden-Info.plist";
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				OTHER_CFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		3A2AE0BC39DC45D990F13086 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
-				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
-				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
-				GCC_WARN_MISSING_PARENTHESES = YES;
-				GCC_WARN_SHADOW = YES;
-				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_LABEL = YES;
-				GCC_WARN_UNUSED_VALUE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4479CB0C38D34A56A2C55192 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/xcodeproj.dst;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "zenGarden/Resources/Other-Sources/zenGarden-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "zenGarden/Resources/Other-Sources/zenGarden-Info.plist";
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		455838D69C7A446DB5D8BDCD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4278CED900D661A7912A60C /* Pods-unit_tests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/zenGarden.app/zenGarden";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PREFIX_HEADER = "UnitTests/Resources/UnitTests-Prefix.pch";
-				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		A399A81F9E6640679387BB5D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
-				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
-				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
-				GCC_WARN_MISSING_PARENTHESES = YES;
-				GCC_WARN_SHADOW = YES;
-				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_LABEL = YES;
-				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B32DC717C46049C69DC0AAA4 /* Release */ = {
+		629B748A1BE10AA5008F05F6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DE599179070A4B7ED9C2546 /* Pods-unit_tests.release.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/zenGarden.app/zenGarden";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PREFIX_HEADER = "UnitTests/Resources/UnitTests-Prefix.pch";
-				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		629B748C1BE10AA5008F05F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZenGarden/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = waterBB.ZenGarden;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		629B748D1BE10AA5008F05F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZenGarden/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = waterBB.ZenGarden;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		629B748F1BE10AA5008F05F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZenGardenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = waterBB.ZenGardenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZenGarden.app/ZenGarden";
+			};
+			name = Debug;
+		};
+		629B74901BE10AA5008F05F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZenGardenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = waterBB.ZenGardenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZenGarden.app/ZenGarden";
+			};
+			name = Release;
+		};
+		629B74921BE10AA5008F05F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZenGardenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = waterBB.ZenGardenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZenGarden;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		629B74931BE10AA5008F05F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZenGardenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = waterBB.ZenGardenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZenGarden;
+				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3406E6128508483F82CE32F7 /* Build configuration list for PBXProject "zenGarden" */ = {
+		629B74591BE10AA5008F05F6 /* Build configuration list for PBXProject "ZenGarden" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A399A81F9E6640679387BB5D /* Debug */,
-				3A2AE0BC39DC45D990F13086 /* Release */,
+				629B74891BE10AA5008F05F6 /* Debug */,
+				629B748A1BE10AA5008F05F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52E32D4CEC404A8F8FFA6D20 /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+		629B748B1BE10AA5008F05F6 /* Build configuration list for PBXNativeTarget "ZenGarden" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B32DC717C46049C69DC0AAA4 /* Release */,
-				455838D69C7A446DB5D8BDCD /* Debug */,
+				629B748C1BE10AA5008F05F6 /* Debug */,
+				629B748D1BE10AA5008F05F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		59591CFDE0C44AF6B025E606 /* Build configuration list for PBXNativeTarget "zenGarden" */ = {
+		629B748E1BE10AA5008F05F6 /* Build configuration list for PBXNativeTarget "ZenGardenTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0224A94380F74B6BAF1549DC /* Release */,
-				4479CB0C38D34A56A2C55192 /* Debug */,
+				629B748F1BE10AA5008F05F6 /* Debug */,
+				629B74901BE10AA5008F05F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+		};
+		629B74911BE10AA5008F05F6 /* Build configuration list for PBXNativeTarget "ZenGardenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629B74921BE10AA5008F05F6 /* Debug */,
+				629B74931BE10AA5008F05F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2CD2F28620F049E6AAB78306 /* Project object */;
+	rootObject = 629B74561BE10AA5008F05F6 /* Project object */;
 }
